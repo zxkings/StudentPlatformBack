@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: Ziad
+Build-Jdk: 19
+Implementation-Title: Student
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.main
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/Student
+Created-By: Maven Integration for Eclipse
+
