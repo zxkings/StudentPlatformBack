@@ -24,3 +24,14 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+/.metadata/
+demo/target/classes/META-INF/maven/com.main/Student/pom.properties
+demo/.settings/org.springframework.ide.eclipse.prefs
+demo/.settings/org.eclipse.m2e.core.prefs
+demo/.settings/org.eclipse.jdt.core.prefs
+demo/.settings/org.eclipse.jdt.apt.core.prefs
+demo/.settings/org.eclipse.core.resources.prefs
+demo/.project
+demo/.factorypath
+demo/.classpath
+demo/target/classes/META-INF/maven/com.main/Student/pom.properties
