@@ -8,7 +8,7 @@ import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @Configuration
-public class WebMvcConfig implements WebMvcConfigurer  {
+public class WebMvcConfig extends WebSecurityConfigurerAdapter implements WebMvcConfigurer  {
 
     @Override
     public void addCorsMappings(CorsRegistry registry){
@@ -17,6 +17,11 @@ public class WebMvcConfig implements WebMvcConfigurer  {
                 .allowedMethods("GET", "POST", "PUT", "DELETE")
                 .allowedHeaders("*")
                 .allowCredentials(true);
+    }
+    
+    @Override
+    protected void configure(HttpSecurity http) throws Exception {
+        http.csrf().disable();
     }
     
 }
